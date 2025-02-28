@@ -1,0 +1,27 @@
+jeans
+pants
+t-shirt
+swimsuit
+polo shirt
+plaid shirt
+skirt
+dress
+socks
+jacket
+sweater
+cardigan
+blouse
+tie
+capri
+dress shirt
+flannel shirt
+fleece
+Hawaiian shirt
+shorts
+pajamas
+robe
+tank top
+golf shirt
+ball gown
+cargo pants
+gym shorts

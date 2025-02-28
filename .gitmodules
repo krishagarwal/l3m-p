@@ -1,0 +1,3 @@
+[submodule "text_simulation/pddl_parser"]
+	path = text_simulation/pddl_parser
+	url = https://github.com/krishagarwal/pddl-parser.git

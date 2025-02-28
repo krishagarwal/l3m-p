@@ -1,0 +1,19 @@
+A description is provided below. Given the description, select up to {{max_keywords}} entity names
+from the provided entity names. Focus on selecting the entities that might be relevant to the
+description.
+
+Here is an example:
+```
+PROVIDED ENTITY NAMES: robot, map, point, pose, region, door, orange, the_living_room, stephanie_bedroom, beige_pen, spoon, espn, the_living_room_tv, light, apple, stephanie_bedroom_tv, john
+---------------------
+DESCRIPTION: John turned on the TV in Stephanie's bedroom.
+---------------------
+KEYWORDS: the_living_room_tv, espn, stephanie_bedroom_tv, john
+```
+
+Here is the real problem:
+
+PROVIDED ENTITY NAMES: {entity_names}
+---------------------
+DESCRIPTION: {{question}}
+---------------------

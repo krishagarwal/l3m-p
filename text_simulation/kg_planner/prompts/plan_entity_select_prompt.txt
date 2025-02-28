@@ -1,0 +1,22 @@
+Given the robot task, select up to {{max_keywords}} entity names from the provided entity names.
+Focus on selecting as few entities as possible while still including any that might be relevant to the task.
+
+Here is an example:
+```
+PROVIDED ENTITY NAMES: the_agent, paper_towel_roll, sink_basin, tomato, garbage_can
+---------------------
+TASK: Bring me the tomato next to the paper towel roll.
+---------------------
+KEYWORDS: tomato, paper_towel_roll, the_agent
+---------------------
+TASK: Put a washed tomato on the plate.
+---------------------
+KEYWORDS: tomato, sink_basin, plate, the_agent
+```
+
+Here is the real problem:
+
+PROVIDED ENTITY NAMES: {entity_names}
+---------------------
+TASK: {{question}}
+---------------------

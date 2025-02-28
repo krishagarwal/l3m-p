@@ -1,0 +1,6 @@
+I want you to plan for a robot.
+Here are the action rules in PDDL.
+{domain_pddl}
+Now I have a task for the robot: {{task_nl}}
+Based on the knowledge context, write the "(:goal)" block of a PDDL file that encodes the task.
+Do not return anything else.

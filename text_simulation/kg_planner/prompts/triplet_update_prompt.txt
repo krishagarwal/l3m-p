@@ -1,0 +1,63 @@
+I have a knowledge graph that represents a household. A state change in the household
+is provided below. A set of relevant relations in the knowledge graph is also provided.
+Based on the state change, determine which of the relations should be removed and what
+new relations should be added. Only add and remove relations that are strictly necessary
+for the state update. Do not assume anything extra about the description. Each update
+must appear in a triplet form.
+
+Provide your response in the following JSON format:
+```
+{{{{{{{{
+    "REMOVE": [list of relations to remove],
+    "ADD": [list of relations to add]
+}}}}}}}}
+```
+
+Here is the list of allowed relation types: {predicate_names}
+Here is the list of entities: {entity_names}
+
+Here is an example:
+```
+---------------------
+STATE CHANGE: John went to the Patrick's bedroom and turned off the overhead light.
+---------------------
+RELEVANT RELATIONS:
+patrick_bedroom -> room_has -> patrick_bedroom_light
+patrick_bedroom_light -> light_on -> false
+john -> person_in_room -> the_living_room
+---------------------
+{{{{{{{{
+    "REMOVE": [
+        {{{{{{{{
+            "subject": "patrick_bedroom_light",
+            "relation": "light_on",
+            "object": "false"
+        }}}}}}}},
+        {{{{{{{{
+            "subject": "john",
+            "relation": "person_in_room",
+            "object": "the_living_room"
+        }}}}}}}}
+    ],
+    "ADD": [
+        {{{{{{{{
+            "subject": "patrick_bedroom_light",
+            "relation": "light_on",
+            "object": "true"
+        }}}}}}}},
+        {{{{{{{{
+            "subject": "john",
+            "relation": "person_in_room",
+            "object": "patrick_bedroom"
+        }}}}}}}}
+    ]
+}}}}}}}}
+```
+
+Here is the real problem:
+---------------------
+STATE CHANGE: {{state_change}}
+---------------------
+RELEVANT RELATIONS:
+{{{{filtered_triplet_str}}}}
+---------------------

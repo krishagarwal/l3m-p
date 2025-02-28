@@ -1,0 +1,46 @@
+Apple
+Banana
+Orange
+Potato
+Tomato
+Carrot
+Onion
+Cucumber
+Avocado
+Watermelon
+Pineapple
+Mango
+Peach
+Pear
+Corn
+Cauliflower
+Zucchini
+Asparagus
+Radish
+Bell pepper
+Eggplant
+Artichoke
+Lemon
+Lime
+Coconut
+Frozen pizza
+Blueberries box
+Strawberries box
+Raspberries box
+Grapes box
+Cherries box
+Kiwi
+Plum
+Nectarine
+Blackberries box
+Cantaloupe
+Papaya
+Pomegranate
+Broccoli packet
+Spinach packet
+Lettuce packet
+Kale packet
+Milk carton
+Egg carton
+Butter stick
+Yogurt tub
