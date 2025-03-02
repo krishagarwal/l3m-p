@@ -1,1 +1,1 @@
-# L3M+P: Lifelong Optimal Planning with Large Language Models
+# L3M+P: Lifelong Planning with Large Language Models
